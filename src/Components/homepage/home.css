@@ -1,0 +1,107 @@
+.heading{
+    text-align: center;
+}
+
+
+.search-bar1{
+    position: relative;
+    float: inline-start;
+    width: 100%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar2{
+    position: relative;
+    float: right;
+    height: 50px;
+    display: inline;
+    margin-left: 30%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.home{
+
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+.car, .country, .type{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    width: 20%;
+    height: 28%;
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    bottom: 30;
+    background-color: rgb(203, 162, 244);
+    border: none;
+}
+
+.footer{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+.body{
+    text-align: center;
+}
+
+.ownerDetail{
+    margin: 20px;
+}
+
+.owner-ceo{
+    margin: 20px;
+}
+
+Button{
+    background-color: pink;
+    padding: 1.5em;
+    color: black;
+    float: left;
+    margin-top: 20%;
+    border-radius: 5px;
+}
+.context{
+    position:relative;
+    background-color: rgb(69, 101, 228);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.data-box{
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
